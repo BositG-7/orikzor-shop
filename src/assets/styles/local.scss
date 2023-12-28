@@ -8,18 +8,7 @@
    text-decoration: none;
 }
 
-::-webkit-scrollbar {
-   width: 15px;
-}
 
-::-webkit-scrollbar-track {
-   background: var(--blue);
-}
-
-::-webkit-scrollbar-thumb {
-   background: var(--white);
-   border-radius: 1px;
-}
 
 :root {
    --white: rgba(255, 255, 255, 1);

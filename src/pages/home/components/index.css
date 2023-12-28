@@ -1,0 +1,16 @@
+/* .title:hover{
+  color: #0050e0;
+} */
+/* .title {
+    cursor: pointer;
+    height: 15px;
+}
+.categories_name:hover{
+    color: #0050e0;
+} */
+.categories::-webkit-scrollbar{
+    display: none;
+}
+.btns .mantine-1ryt1ht{
+    overflow: visible;
+}
