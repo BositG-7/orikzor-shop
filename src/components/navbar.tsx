@@ -74,7 +74,7 @@ const Navbar: FunctionComponent<NavbarProps> = () => {
 							className="title"
 							// @ts-ignore
 							size={14}>
-							Kurslar
+							3 Kurslar
 						</Button>
 						<Button
 							onClick={() => {
