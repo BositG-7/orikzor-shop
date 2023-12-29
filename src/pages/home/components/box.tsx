@@ -87,16 +87,17 @@ const Boxes: FunctionComponent<BoxProps> = () => {
             
             <Grid gutter="md">
           {data.map((item, index) => (
-            <Grid.Col key={+index} span={12} sm={6} md={4} lg={3}>
-              <Card 
+            <Grid.Col key={+index} span={12} sm={6} md={4} lg={3} sx={{padding:"15px"}}>
+              <Card
                 title={item.title}
                 image={item.image}
                 description={item.description}
                 cartImage={item.cartImage}
                 price={item.price}
                 percentage={item.percentage}
-                />         
+                />    
                 </Grid.Col>
+                
           ))}
         </Grid>
             

@@ -20,7 +20,7 @@ export const Card: FunctionComponent<CardProps> = ({ price, title, description, 
 	return (
 		<>
 			<Box sx={{border:"1px solid grey",borderRadius:"10px",'&:hover': {
-							transform: 'translateY(-20px)'
+							transform: 'translateY(-10px)'
 						},transition:"0.3s"}} p={10}>
 				<Flex
 					justify="center"
