@@ -10,7 +10,7 @@ import cart from '../../../assets/images/cart.png';
 interface BoxProps {}
 export const data = [
 	{
-		id:"1",
+		id: '1',
 		title: 'Iphone',
 		description: 'Iphone3',
 		image: boxImage,
@@ -19,7 +19,7 @@ export const data = [
 		percentage: 10
 	},
 	{
-		id:"2",
+		id: '2',
 		title: 'Iphone',
 		description: 'Iphone3',
 		image: boxImage,
@@ -27,8 +27,8 @@ export const data = [
 		price: '2000$',
 		percentage: 20
 	},
-	{   
-		id:"3",
+	{
+		id: '3',
 		title: 'Iphone',
 		description: 'Iphone3',
 		image: boxImage,
@@ -37,7 +37,7 @@ export const data = [
 		percentage: 35
 	},
 	{
-		id:"4",
+		id: '4',
 		title: 'Iphone',
 		description: 'Iphone3',
 		image: boxImage,
@@ -46,7 +46,7 @@ export const data = [
 		percentage: 13
 	},
 	{
-		id:"5",
+		id: '5',
 		title: 'Iphone',
 		description: 'Iphone3',
 		image: boxImage,
@@ -55,7 +55,7 @@ export const data = [
 		percentage: 23
 	},
 	{
-		id:"6",
+		id: '6',
 		title: 'Iphone',
 		description: 'Iphone3',
 		image: boxImage,
@@ -64,7 +64,7 @@ export const data = [
 		percentage: 42
 	},
 	{
-		id:"7",
+		id: '7',
 		title: 'Iphone',
 		description: 'Iphone3',
 		image: boxImage,
@@ -73,7 +73,7 @@ export const data = [
 		percentage: 31
 	},
 	{
-		id:"8",
+		id: '8',
 		title: 'Iphone',
 		description: 'Iphone3',
 		image: boxImage,

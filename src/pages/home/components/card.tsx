@@ -1,5 +1,4 @@
 import { FunctionComponent } from 'react';
-import {  useNavigate } from 'react-router-dom';
 import { Box, Button, Flex, Progress, Text } from '@mantine/core';
 
 import star from '../../../assets/images/star.png';
@@ -7,7 +6,7 @@ import star from '../../../assets/images/star.png';
 import './index.css';
 
 export interface CardProps {
-	id:string;
+	id: string;
 	title: string;
 	price: string;
 	image: string;
@@ -19,12 +18,8 @@ export interface CardProps {
 export const Card: FunctionComponent<CardProps> = ({ id, price, title, description, image, cartImage, percentage }) => {
 	const i = 0;
 
-    const navigate = useNavigate()
-
-
 	return (
 		<>
-	
 			<Box
 				sx={{
 					border: '1px solid grey',
@@ -36,8 +31,7 @@ export const Card: FunctionComponent<CardProps> = ({ id, price, title, descripti
 				}}
 				p={10}>
 				<Flex justify="center" w="100%" direction="column" pl={0} pr={0} p={24} gap="4px">
-					
-					<img onClick={()=>navigate(`/product/${id}`)} style={{ borderRadius: '10px', backgroundColor: 'grey', cursor: 'pointer' }} src={image} width="100%" height="190" alt="" />
+					<img style={{ borderRadius: '10px', backgroundColor: 'grey', cursor: 'pointer' }} src={image} width="100%" height="190" alt="" />
 					<Flex justify="space-between">
 						<Text
 							sx={{ color: '#F81155', cursor: 'pointer', fontFamily: 'sans-serif', fontSize: '25px', fontWeight: 700, letterSpacing: '4px' }}>
@@ -76,7 +70,6 @@ export const Card: FunctionComponent<CardProps> = ({ id, price, title, descripti
 							Add to Cart
 						</Text>
 					</Button>
-					
 				</Flex>
 			</Box>
 		</>
